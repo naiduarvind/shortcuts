@@ -11,7 +11,8 @@
     "lodash": "^4.17.11",
     "vue": "^2.5.22",
     "vue-router": "^3.0.1",
-    "vuex": "^3.0.1"
+    "vuex": "^3.0.1",
+    "vuedarkmode": "^0.4.18"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",
