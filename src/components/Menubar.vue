@@ -91,7 +91,7 @@ p {
   <div class="menubar" v-if="showNav">
     <div class="d-flex flex-column">
       <h1 class="menu__title d-flex flex-row align-items-center">
-        <img src="../../src/assets/favicon.png" alt="T.(*)b.E Logo">
+        <img src="../../src/assets/favicon.png" alt="T.(*)b.E Logo" style="width:32px;height:32px;">
         <span class="pl-10">T.(*)b.E Shortcuts</span>
       </h1>
 
