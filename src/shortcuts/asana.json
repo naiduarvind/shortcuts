@@ -1,0 +1,937 @@
+[
+  {
+    "description": "Mark as Upcoming in MyTask",
+    "category": "My Task Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Tab"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "U"
+      }
+    ],
+    "id": "asa0"
+  },
+  {
+    "description": "Mark as Today in MyTask",
+    "category": "My Task Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Tab"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Y"
+      }
+    ],
+    "id": "asa1"
+  },
+  {
+    "description": "Mark as Later in MyTask",
+    "category": "My Task Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Tab"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "L"
+      }
+    ],
+    "id": "asa2"
+  },
+  {
+    "description": "Move Up",
+    "category": "Inbox shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "K"
+      }
+    ],
+    "id": "asa3"
+  },
+  {
+    "description": "Move Down",
+    "category": "Inbox shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "J"
+      }
+    ],
+    "id": "asa4"
+  },
+  {
+    "description": "Move to Inbox",
+    "category": "Inbox shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "U"
+      }
+    ],
+    "id": "asa5"
+  },
+  {
+    "description": "Archieve",
+    "category": "Inbox shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "I"
+      }
+    ],
+    "id": "asa6"
+  },
+  {
+    "description": "Jump to Inbox",
+    "category": "Inbox shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "H"
+      }
+    ],
+    "id": "asa7"
+  },
+  {
+    "description": "Jump to Archieve",
+    "category": "Inbox shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "S"
+      }
+    ],
+    "id": "asa8"
+  },
+  {
+    "description": "Follow/Unfollow",
+    "category": "Inbox shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "F"
+      }
+    ],
+    "id": "asa9"
+  },
+  {
+    "description": "Assign Selected Tasks",
+    "category": "Navigation Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Tab"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "A"
+      }
+    ],
+    "id": "asa10"
+  },
+  {
+    "description": "Comment on Selected Tasks",
+    "category": "Navigation Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Tab"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "C"
+      }
+    ],
+    "id": "asa11"
+  },
+  {
+    "description": "Set Due Date",
+    "category": "Navigation Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Tab"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "D"
+      }
+    ],
+    "id": "asa12"
+  },
+  {
+    "description": "Add a tag to the task",
+    "category": "Navigation Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Tab"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "T"
+      }
+    ],
+    "id": "asa13"
+  },
+  {
+    "description": "Add Follower",
+    "category": "Navigation Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Tab"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "F"
+      }
+    ],
+    "id": "asa14"
+  },
+  {
+    "description": "Search for a project,tag,person or task",
+    "category": "Navigation Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Tab"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": ""
+      },
+      {
+        "type": "operator",
+        "val": "or"
+      },
+      {
+        "type": "symbol",
+        "val": ""
+      }
+    ],
+    "id": "asa15"
+  },
+  {
+    "description": "Jump to Task List",
+    "category": "Navigation Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Tab"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Enter"
+      }
+    ],
+    "id": "asa16"
+  },
+  {
+    "description": "Focus Subtasks",
+    "category": "Navigation Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Tab"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "S"
+      }
+    ],
+    "id": "asa17"
+  },
+  {
+    "description": "Post Comment",
+    "category": "Application Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Tab"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Enter"
+      }
+    ],
+    "id": "asa18"
+  },
+  {
+    "description": "Quick add task",
+    "category": "Application Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Tab"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Q"
+      }
+    ],
+    "id": "asa19"
+  },
+  {
+    "description": "Show keyboard Shortcuts(Windows Only)",
+    "category": "Application Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": ""
+      },
+      {
+        "type": "operator",
+        "val": "or"
+      },
+      {
+        "type": "symbol",
+        "val": ""
+      }
+    ],
+    "id": "asa20"
+  },
+  {
+    "description": "Expand Right Pane",
+    "category": "Application Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Tab"
+      }
+    ],
+    "id": "asa21"
+  },
+  {
+    "description": "Collapse Right Pane",
+    "category": "Application Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Esc"
+      }
+    ],
+    "id": "asa22"
+  },
+  {
+    "description": "Enter in Focus Mode",
+    "category": "Application Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Tab"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "X"
+      }
+    ],
+    "id": "asa23"
+  },
+  {
+    "description": "Change Selection",
+    "category": "Selection Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Up Arrow"
+      },
+      {
+        "type": "operator",
+        "val": "or"
+      },
+      {
+        "type": "symbol",
+        "val": "Down Arrow"
+      }
+    ],
+    "id": "asa24"
+  },
+  {
+    "description": "Select Range",
+    "category": "Selection Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Click"
+      }
+    ],
+    "id": "asa25"
+  },
+  {
+    "description": "Multi Select Individuals(Windows Only)",
+    "category": "Selection Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Click"
+      }
+    ],
+    "id": "asa26"
+  },
+  {
+    "description": "New Task",
+    "category": "Task Action Shortcuts(On Windows Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Enter"
+      }
+    ],
+    "id": "asa27"
+  },
+  {
+    "description": "Delete Selected Task",
+    "category": "Task Action Shortcuts(On Windows Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Tab"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Bkspace"
+      }
+    ],
+    "id": "asa28"
+  },
+  {
+    "description": "Delete Current Task",
+    "category": "Task Action Shortcuts(On Windows Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Bkspace"
+      }
+    ],
+    "id": "asa29"
+  },
+  {
+    "description": "Complete Selected Task",
+    "category": "Task Action Shortcuts(On Windows Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Enter"
+      }
+    ],
+    "id": "asa30"
+  },
+  {
+    "description": "Move Up",
+    "category": "Task Action Shortcuts(On Windows Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Up Arrow"
+      }
+    ],
+    "id": "asa31"
+  },
+  {
+    "description": "Move Down",
+    "category": "Task Action Shortcuts(On Windows Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Down Arrow"
+      }
+    ],
+    "id": "asa32"
+  },
+  {
+    "description": "Jump Up to next selection",
+    "category": "Task Action Shortcuts(On Windows Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Up Arrow"
+      }
+    ],
+    "id": "asa33"
+  },
+  {
+    "description": "Jump Down to next selection",
+    "category": "Task Action Shortcuts(On Windows Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Down Arrow"
+      }
+    ],
+    "id": "asa34"
+  },
+  {
+    "description": "Copy selected task",
+    "category": "Task Action Shortcuts(On Windows Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "C"
+      }
+    ],
+    "id": "asa35"
+  },
+  {
+    "description": "Paste selected task",
+    "category": "Task Action Shortcuts(On Windows Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "V"
+      }
+    ],
+    "id": "asa36"
+  },
+  {
+    "description": "Select Favourite as Selected Task",
+    "category": "Task Action Shortcuts(On Windows Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Tab"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "H"
+      }
+    ],
+    "id": "asa37"
+  },
+  {
+    "description": "Assign to Me",
+    "category": "Task Action Shortcuts(On Windows Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Tab"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "M"
+      }
+    ],
+    "id": "asa38"
+  },
+  {
+    "description": "Type a colon at end of a task name to create a session",
+    "category": "Task Action Shortcuts(On Windows Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": ":"
+      }
+    ],
+    "id": "asa39"
+  },
+  {
+    "description": "New Task",
+    "category": "Task Action Shortcuts(On Mac Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Return"
+      }
+    ],
+    "id": "asa40"
+  },
+  {
+    "description": "Delete Selected Task",
+    "category": "Task Action Shortcuts(On Mac Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Tab"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Bkspace"
+      }
+    ],
+    "id": "asa41"
+  },
+  {
+    "description": "Delete Current Task",
+    "category": "Task Action Shortcuts(On Mac Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Bkspace"
+      }
+    ],
+    "id": "asa42"
+  },
+  {
+    "description": "Complete Selected Task",
+    "category": "Task Action Shortcuts(On Mac Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Command"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Return"
+      }
+    ],
+    "id": "asa43"
+  },
+  {
+    "description": "Move Up",
+    "category": "Task Action Shortcuts(On Mac Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Command"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Up Arrow"
+      }
+    ],
+    "id": "asa44"
+  },
+  {
+    "description": "Move Down",
+    "category": "Task Action Shortcuts(On Mac Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Command"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Down Arrow"
+      }
+    ],
+    "id": "asa45"
+  },
+  {
+    "description": "Jump Up to next selection",
+    "category": "Task Action Shortcuts(On Mac Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Command"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Up Arrow"
+      }
+    ],
+    "id": "asa46"
+  },
+  {
+    "description": "Jump Down to next selection",
+    "category": "Task Action Shortcuts(On Mac Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Command"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Down Arrow"
+      }
+    ],
+    "id": "asa47"
+  },
+  {
+    "description": "Copy selected task",
+    "category": "Task Action Shortcuts(On Mac Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Command"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "C"
+      }
+    ],
+    "id": "asa48"
+  },
+  {
+    "description": "Paste selected task",
+    "category": "Task Action Shortcuts(On Mac Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Command"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "V"
+      }
+    ],
+    "id": "asa49"
+  },
+  {
+    "description": "Select Favourite as Selected Task",
+    "category": "Task Action Shortcuts(On Mac Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Tab"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "H"
+      }
+    ],
+    "id": "asa50"
+  },
+  {
+    "description": "Assign to Me",
+    "category": "Task Action Shortcuts(On Mac Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Tab"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "M"
+      }
+    ],
+    "id": "asa51"
+  },
+  {
+    "description": "Type a colon at end of a task name to create a session",
+    "category": "Task Action Shortcuts(On Mac Plateform)",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": ":"
+      }
+    ],
+    "id": "asa52"
+  }
+]

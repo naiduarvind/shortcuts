@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Common Shortcuts - Find and bookmark shortcuts you need</title>
+    <meta
+      name="description"
+      content="A simple tool to find and bookmark shortcuts you need so you no longer have to dig the web. It's made to save everyone's time when using softwares they interact with daily."
+    />
+    <meta name="author" content="Marcel Christianis" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://commonshortcuts.netlify.com/" />
+
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Common Shortcuts - Find and bookmark shortcuts you need"
+    />
+    <meta
+      property="og:description"
+      content="A simple tool to find and bookmark shortcuts you need so you no longer have to dig the web. It's made to save everyone's time when using softwares they interact with daily."
+    />
+    <meta property="og:image" content="https://i.imgur.com/JrgysJQ.png" />
+    <meta property="og:url" content="https://commonshortcuts.netlify.com" />
+    <meta property="og:site_name" content="Common Shortcuts" />
+
+    <meta
+      name="twitter:title"
+      content="Common Shortcuts - Find and bookmark shortcuts you need"
+    />
+    <meta
+      name="twitter:description"
+      content="A simple tool to find and bookmark shortcuts you need so you no longer have to dig the web. It's made to save everyone's time when using softwares they interact with daily."
+    />
+    <meta name="twitter:image" content="https://i.imgur.com/JrgysJQ.png" />
+    <meta name="twitter:site" content="https://commonshortcuts.netlify.com" />
+    <meta name="twitter:creator" content="@marcelc63" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background: #fafafa;
+      }
+      #app {
+        font-family: "Avenir", Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-align: center;
+        color: #2c3e50;
+        margin-top: 0px;
+        padding: 10px;
+      }
+      h1 {
+        font-weight: normal;
+        margin-bottom: 20px;
+      }
+      h2 {
+        font-weight: normal;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        display: inline-block;
+        margin: 0 10px;
+      }
+      a {
+        color: #3183ff;
+      }
+      a:hover {
+        color: #185bc0;
+      }
+      b {
+        opacity: 0.7;
+        user-select: none;
+      }
+      input:focus {
+        outline: none;
+      }
+
+      .p-0 {
+        padding: 0px !important;
+      }
+      .p-10 {
+        padding: 10px;
+      }
+      .mb-10 {
+        margin-bottom: 10px;
+      }
+      .mb-30 {
+        margin-bottom: 30px;
+      }
+      .width-100 {
+        width: 100%;
+      }
+      .width-90 {
+        flex: 0 0 90%;
+        max-width: 90%;
+      }
+      .pointer {
+        cursor: pointer;
+      }
+
+      .cards {
+        border-bottom: 3px dotted #eeeeee;
+        width: 100%;
+        border-radius: 5px;
+        padding: 10px 15px;
+      }
+      .cards:hover .bookmark {
+        display: block;
+      }
+      .bookmark {
+        cursor: pointer;
+        /* display: none; */
+      }
+      /* .bookmark:hover {
+        color: rgb(0, 132, 255);
+      } */
+      .bookmark-selected {
+        cursor: pointer;
+        display: block;
+        color: rgb(0, 132, 255);
+      }
+      .wrapper {
+        width: 100%;
+        max-width: 650px;
+      }
+      .desc {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      .info {
+        font-size: 12px;
+        margin-bottom: 5px;
+        opacity: 0.7;
+      }
+      .keys {
+        font-size: 14px;
+        margin-bottom: 0px;
+        user-select: none;
+      }
+      .keys-mac .symbol {
+        background: #616161;
+        color: #fff;
+        border-color: #616161;
+      }
+      .usecase {
+        font-size: 10px;
+        margin-bottom: 0px;
+        text-align: left;
+        background: #eeeeee;
+        padding: 5px 10px;
+        color: #aaa;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+      .search-box {
+        max-width: 650px;
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 0px 10px;
+        font-size: 28px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.05);
+      }
+      .search-box::placeholder {
+        font-size: 20px;
+        color: #d1d1d1;
+      }
+      .icon {
+        padding: 0px 10px 0px 0px;
+        margin-bottom: 3px;
+      }
+      .symbol {
+        background: #fff;
+        border: 1px solid #ddd;
+        padding: 0 5px;
+        border-radius: 5px;
+      }
+      .operator {
+        padding: 0 5px;
+      }
+      .dash {
+        padding: 0 5px 0 10px;
+        font-weight: 300;
+      }
+      .description {
+        padding: 0 5px;
+        text-align: left;
+      }
+      .search-box:focus {
+        outline: none;
+      }
+      .label {
+        user-select: none;
+        opacity: 0.7;
+        padding: 0 5px;
+        cursor: pointer;
+      }
+      .label-selected {
+        font-weight: 600;
+      }
+      .platform {
+        opacity: 0.5;
+        padding: 0 5px;
+        cursor: pointer;
+      }
+      .platform-selected {
+        opacity: 1;
+        font-weight: 600;
+      }
+
+      .aboutus {
+        z-index: 2;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+        /* padding: 20px; */
+      }
+
+      .aboutus__inner {
+        /* width: 100%; */
+        max-width: 500px;
+        background: #fafafa;
+        border-radius: 5px;
+        padding: 20px 20px 20px 20px;
+        box-shadow: 0 0 15px 0 #d1d1d1;
+        position: relative;
+        cursor: default;
+      }
+      .aboutus__title {
+        font-weight: 600;
+        font-size: 18px;
+      }
+      .aboutus__headline {
+        text-align: left;
+        margin-bottom: 5px;
+        font-weight: 600;
+        opacity: 0.8;
+        font-size: 14px;
+      }
+      .aboutus__headline--center {
+        text-align: center;
+      }
+      .aboutus__text {
+        text-align: justify;
+        font-size: 14px;
+        opacity: 0.8;
+      }
+      .aboutus__close {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        cursor: pointer;
+        opacity: 0.6;
+      }
+      .aboutus__input {
+        text-align: left;
+      }
+      .aboutus__input input {
+        width: 100%;
+        padding: 0 10px;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid #d1d1d1;
+        margin-bottom: 5px;
+        font-size: 14px;
+      }
+      .aboutus__submit {
+        border: none;
+        background: #3183ff;
+        color: #fafafa;
+        border-radius: 5px;
+        width: 100%;
+        cursor: pointer;
+      }
+      .aboutus__submit:hover {
+        opacity: 0.8;
+      }
+
+      .toolbar {
+        width: 100%;
+        padding: 0 10px;
+        margin-bottom: 10px;
+      }
+      .toolbar__option {
+        padding: 0 10px;
+        font-size: 14px;
+      }
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-61938466-11"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-61938466-11");
+    </script>
+  </head>
+  <body>
+    <div id="app" v-if="isLoaded">
+      <div
+        class="hello d-flex flex-column justify-content-center align-items-center"
+      >
+        <div
+          class="toolbar d-flex flex-row align-items-start justify-content-between"
+        >
+          <div>
+            <span @click="toggleAboutUs" class="toolbar__option"
+              >About Common Shortcuts</span
+            >
+            <span @click="toggleAboutUs" class="toolbar__option"
+              ><a href="https://goo.gl/forms/FCLQmhBsjOwUfvtw2" target="_blank"
+                >Give Feedback</a
+              ></span
+            >
+          </div>
+          <span class="toolbar__option"
+            ><a href="https://twitter.com/marcelc63" target="_blank"
+              >by <i class="fa fa-twitter" aria-hidden="true"></i>marcelc63</a
+            ></span
+          >
+        </div>
+
+        <h1>
+          <i class="fa fa-keyboard-o" aria-hidden="true"></i> Common
+          <span>
+            <u>{{ ucfirst(software) }}</u>
+          </span>
+          Shortcuts
+        </h1>
+        <div
+          class="wrapper d-flex flex-row align-items-center justify-content-center mb-10"
+        >
+          <p :class="classSoftware('excel')" @click="viewSoftware('excel')">
+            Excel
+          </p>
+          <p :class="classSoftware('vim')" @click="viewSoftware('vim')">Vim</p>
+        </div>
+
+        <input v-model="search" class="search-box" placeholder="Search..." />
+
+        <div class="wrapper d-flex flex-row justify-content-between mb-10">
+          <div class="d-flex flex-row">
+            <p :class="classTab('shortcuts')" @click="viewTab('shortcuts')">
+              Shortcuts
+            </p>
+            <p :class="classTab('bookmarks')" @click="viewTab('bookmarks')">
+              Bookmarked
+            </p>
+          </div>
+          <div class="d-flex flex-row">
+            <p
+              :class="classPlatform('windows')"
+              @click="viewPlatform('windows')"
+            >
+              <i class="fa fa-windows icon" aria-hidden="true"></i>
+            </p>
+            <p :class="classPlatform('mac')" @click="viewPlatform('mac')">
+              <i class="fa fa-apple icon" aria-hidden="true"></i>
+            </p>
+          </div>
+        </div>
+
+        <div class="row width-100">
+          <div
+            class="col-md-4 col-12"
+            v-for="(group, groupIn) in groups"
+            :key="groupIn"
+          >
+            <div
+              v-for="(category, categoryIn) in group"
+              :key="categoryIn"
+              class="mb-30"
+              v-if="filteredShortcuts(category).length !== 0"
+            >
+              <p class="text-left pointer" @click="viewCollapse(category)">
+                <b
+                  >{{ category }}
+                  <i
+                    :class="classCollapse(category) ? 'fa fa-caret-down' : 'fa fa-caret-up'"
+                    aria-hidden="true"
+                  ></i
+                ></b>
+              </p>
+              <div
+                v-for="(shortcut, index) in filteredShortcuts(category)"
+                :key="index"
+                class="d-flex flex-column cards"
+                v-if="shortcut[platform].length !== 0 && classCollapse(category)"
+              >
+                <div
+                  class="keys keys-windows d-flex flex-row align-items-center flex-wrap justify-content-between pointer"
+                  @click="bookmark(shortcut.id, category)"
+                >
+                  <div class="width-90 d-flex flex-row align-items-center">
+                    <i
+                      :class="platform === 'windows' ? 'fa fa-windows icon' : 'fa fa-apple icon'"
+                      aria-hidden="true"
+                    ></i>
+                    <span
+                      v-for="(key, keyIn) in shortcut[platform]"
+                      :key="keyIn"
+                      :class="keyClass(key.type)"
+                      v-if="shortcut[platform].length"
+                    >
+                      {{ key.val }}
+                    </span>
+                    <span class="dash">-</span>
+                    <span v-if="!shortcut[platform].length" class="operator">
+                      -
+                    </span>
+                    <span class="description">{{ shortcut.description }}</span>
+                  </div>
+                  <i
+                    :class="bookmarkStar(shortcut.id, category)"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="aboutus d-flex flex-column align-items-center justify-content-center"
+        v-if="aboutus"
+        v-on:click.self="toggleAboutUs"
+      >
+        <div class="aboutus__inner">
+          <p class="aboutus__title">Welcome to Common Shortcuts!</p>
+          <p class="aboutus__text">
+            Common Shortcuts is a way to search and bookmark common Excel and
+            Vim shortcuts so you no longer have to dig the web. It's made to
+            save everyone's time when using softwares they interact with daily.
+          </p>
+
+          <p class="aboutus__headline">About Me</p>
+          <p class="aboutus__text">
+            My name is
+            <a href="https://marcelchristianis.com" target="_blank"
+              >Marcel Christianis</a
+            >, 22 years old, from Indonesia. I believe in the intersection of
+            code, design, and business. Follow me on
+            <a href="https://twitter.com/marcelc63" target="_blank">twitter</a>
+            :)
+          </p>
+
+          <p class="aboutus__headline">Credits</p>
+          <p class="aboutus__text">
+            Shortcuts sourced for Vim from
+            <a href="https://vim.rtorr.com" target="_blank">vim.rtorr.com</a>
+            and Excel from
+            <a
+              href="https://office-hack.com/en/excel/shortcutkey-list/"
+              target="_blank"
+              >office-hacks</a
+            >
+          </p>
+
+          <!-- Begin Mailchimp Signup Form -->
+          <div id="mc_embed_signup">
+            <form
+              action="https://3secondstolaunch.us8.list-manage.com/subscribe/post?u=71aeabbbfeb1fd15e178abbd4&amp;id=f8e8865b07"
+              method="post"
+              id="mc-embedded-subscribe-form"
+              name="mc-embedded-subscribe-form"
+              class="validate"
+              target="_blank"
+              novalidate
+            >
+              <div id="mc_embed_signup_scroll">
+                <p class="aboutus__headline aboutus__headline--center">
+                  Get updates from me and Common Shortcuts
+                </p>
+                <div class="mc-field-group aboutus__input">
+                  <input
+                    placeholder="Email Address"
+                    type="email"
+                    value=""
+                    name="EMAIL"
+                    class="required email"
+                    id="mce-EMAIL"
+                  />
+                </div>
+                <div id="mce-responses" class="clear">
+                  <div
+                    class="response"
+                    id="mce-error-response"
+                    style="display:none"
+                  ></div>
+                  <div
+                    class="response"
+                    id="mce-success-response"
+                    style="display:none"
+                  ></div>
+                </div>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div
+                  style="position: absolute; left: -5000px;"
+                  aria-hidden="true"
+                >
+                  <input
+                    type="text"
+                    name="b_71aeabbbfeb1fd15e178abbd4_f8e8865b07"
+                    tabindex="-1"
+                    value=""
+                  />
+                </div>
+
+                <div class="clear">
+                  <input
+                    class="aboutus__submit"
+                    type="submit"
+                    value="Subscribe"
+                    name="subscribe"
+                    id="mc-embedded-subscribe"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <!--End mc_embed_signup-->
+
+          <i
+            class="fa fa-times-circle aboutus__close"
+            @click="toggleAboutUs"
+          ></i>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+    <script>
+      var app = new Vue({
+        el: "#app",
+        created: function() {
+          this.getShortcuts("excel");
+          this.getShortcuts("vim");
+          this.getStorage();
+          this.isLoaded = true;
+        },
+        data: {
+          isLoaded: false,
+          shortcuts: { excel: [], vim: [] },
+          search: "",
+          bookmarks: { excel: [], vim: [] },
+          tab: "shortcuts",
+          collapse: { excel: [], vim: [] },
+          platform: "windows",
+          software: "excel",
+          aboutus: false
+        },
+        computed: {
+          groups: function() {
+            let software = this.software;
+
+            let groupA,
+              groupB,
+              groupC = [];
+
+            if (software === "vim") {
+              groupA = [
+                "Global",
+                "Cursor Movement",
+                "Insert Mode",
+                "Multiple Files"
+              ];
+              groupB = [
+                "Editing",
+                "Marketing Text",
+                "Visual Commands",
+                "Registers",
+                "Marks",
+                "Macros",
+                "Tabs"
+              ];
+              groupC = [
+                "Cut and Paste",
+                "Exiting",
+                "Search and Replace",
+                "Search in Multiple Files"
+              ];
+            } else if (software === "excel") {
+              groupA = ["Common", "Navigation", "Data Entry"];
+              groupB = ["General", "Charts", "Macros", "Selection"];
+              groupC = [
+                "Workbooks",
+                "Worksheets",
+                "Format Cells",
+                "Number Format",
+                "Rows and Columns",
+                "Formulas and Functions"
+              ];
+            }
+            return [groupA, groupB, groupC];
+          }
+        },
+        methods: {
+          getStorage: function() {
+            this.loadStorage("bookmarks");
+            this.loadStorage("platform");
+            this.loadStorage("software");
+            this.loadStorage("tab");
+            this.loadStorage("collapse");
+            this.loadStorage("aboutus");
+          },
+          loadStorage: function(store) {
+            let storage = window.localStorage;
+            let data = storage.getItem(store);
+            if (data !== null) {
+              this[store] = JSON.parse(data);
+            }
+          },
+          saveStorage: function(store, val) {
+            let storage = window.localStorage;
+            let toStore = JSON.stringify(val);
+            storage.setItem(store, toStore);
+          },
+          ucfirst: function(string) {
+            return string.charAt(0).toUpperCase() + string.slice(1);
+          },
+          getShortcuts: function(software) {
+            let self = this;
+            axios
+              .get(
+                "https://www.googleapis.com/storage/v1/b/commonshortcuts/o/" +
+                  software +
+                  ".json?alt=media"
+              )
+              .then(function(res) {
+                self.shortcuts[software] = res.data.map((x, i) => {
+                  return {
+                    category: x.category,
+                    description: x.description,
+                    mac: x.mac,
+                    windows: x.windows,
+                    id: software + i
+                  };
+                });
+              });
+          },
+          toggleAboutUs: function() {
+            this.aboutus = !this.aboutus;
+            this.saveStorage("aboutus", this.aboutus);
+          },
+          viewCollapse: function(category) {
+            let software = this.software;
+            let check = this.collapse[software].includes(category);
+            if (check) {
+              this.collapse[software] = this.collapse[software].filter(
+                x => x !== category
+              );
+            } else {
+              this.collapse[software] = this.collapse[software].concat(
+                category
+              );
+            }
+            this.saveStorage("collapse", this.collapse);
+          },
+          classCollapse: function(category) {
+            let software = this.software;
+            let check = this.collapse[software].includes(category);
+            return check ? false : true;
+          },
+          filteredShortcuts: function(category) {
+            let self = this;
+            let software = this.software;
+            let bucket =
+              this.tab === "shortcuts"
+                ? this.shortcuts[software]
+                : this.bookmarks[software];
+            let search = self.search.split(" ");
+
+            function queryCheck(query) {
+              let check = true;
+              search.forEach(x => {
+                if (check === true) {
+                  check = query.description
+                    .toLowerCase()
+                    .includes(x.toLowerCase());
+                }
+              });
+              return check;
+            }
+
+            return bucket.filter(x => {
+              return queryCheck(x) && x.category === category;
+            });
+          },
+          viewSoftware: function(software) {
+            this.software = software;
+            this.saveStorage("software", this.software);
+          },
+          classSoftware: function(software) {
+            return this.software === software
+              ? "label label-selected"
+              : "label";
+          },
+          viewTab: function(tab) {
+            this.tab = tab;
+            this.saveStorage("tab", this.tab);
+          },
+          classTab: function(tab) {
+            return this.tab === tab ? "label label-selected" : "label";
+          },
+          viewPlatform: function(platform) {
+            this.platform = platform;
+            this.saveStorage("platform", this.platform);
+          },
+          classPlatform: function(platform) {
+            return this.platform === platform
+              ? "platform platform-selected"
+              : "platform";
+          },
+          bookmark: function(id, category) {
+            let software = this.software;
+            let data = this.shortcuts[software].filter(x => x.id === id)[0];
+            let check =
+              this.bookmarks[software].filter(x => x.id === data.id).length ===
+              0;
+
+            if (check) {
+              this.bookmarks[software] = this.bookmarks[software].concat(data);
+            } else {
+              this.bookmarks[software] = this.bookmarks[software].filter(
+                x => x.id !== data.id
+              );
+            }
+
+            this.saveStorage("bookmarks", this.bookmarks);
+          },
+          bookmarkStar: function(id, category) {
+            let software = this.software;
+            if (this.tab === "shortcuts") {
+              let data = this.shortcuts[software].filter(x => x.id === id)[0];
+              let check =
+                this.bookmarks[software].filter(x => x.id === data.id)
+                  .length === 0;
+              return check
+                ? "fa fa-star-o bookmark"
+                : "fa fa-star bookmark-selected";
+            }
+            return "fa fa-star bookmark-selected";
+          },
+          keyClass: function(type) {
+            return type === "symbol" ? "symbol" : "operator";
+          }
+        }
+      });
+    </script>
+  </body>
+</html>

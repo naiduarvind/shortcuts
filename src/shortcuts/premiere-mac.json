@@ -1,0 +1,1900 @@
+[
+  {
+    "description": "New Project",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "N"
+      }
+    ],
+    "id": "prm0"
+  },
+  {
+    "description": "Save Project",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "S"
+      }
+    ],
+    "id": "prm1"
+  },
+  {
+    "description": "Save As",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "S"
+      }
+    ],
+    "id": "prm2"
+  },
+  {
+    "description": "Save Copy",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "alt"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "S"
+      }
+    ],
+    "id": "prm3"
+  },
+  {
+    "description": "Close",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "W"
+      }
+    ],
+    "id": "prm4"
+  },
+  {
+    "description": "Title",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "T"
+      }
+    ],
+    "id": "prm5"
+  },
+  {
+    "description": "Open Existing Project",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "O"
+      }
+    ],
+    "id": "prm6"
+  },
+  {
+    "description": "Open in Adobe bridge",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Alt"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "O"
+      }
+    ],
+    "id": "prm7"
+  },
+  {
+    "description": "Sequence",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "N"
+      }
+    ],
+    "id": "prm8"
+  },
+  {
+    "description": "Exit",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Q"
+      }
+    ],
+    "id": "prm9"
+  },
+  {
+    "description": "Import",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "I"
+      }
+    ],
+    "id": "prm10"
+  },
+  {
+    "description": "Import from media browser",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Alt"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "I"
+      }
+    ],
+    "id": "prm11"
+  },
+  {
+    "description": "Media",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "M"
+      }
+    ],
+    "id": "prm12"
+  },
+  {
+    "description": "Find",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "F"
+      }
+    ],
+    "id": "prm13"
+  },
+  {
+    "description": "Selection",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "H"
+      }
+    ],
+    "id": "prm14"
+  },
+  {
+    "description": "Copy",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "C"
+      }
+    ],
+    "id": "prm15"
+  },
+  {
+    "description": "Cut",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "X"
+      }
+    ],
+    "id": "prm16"
+  },
+  {
+    "description": "Paste",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "V"
+      }
+    ],
+    "id": "prm17"
+  },
+  {
+    "description": "Undo",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Z"
+      }
+    ],
+    "id": "prm18"
+  },
+  {
+    "description": "Redo",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Y"
+      },
+      {
+        "type": "operator",
+        "val": "or"
+      },
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Z"
+      }
+    ],
+    "id": "prm19"
+  },
+  {
+    "description": "Select All",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "A"
+      }
+    ],
+    "id": "prm20"
+  },
+  {
+    "description": "Deselect All",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "A"
+      }
+    ],
+    "id": "prm21"
+  },
+  {
+    "description": "Edit",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "E"
+      }
+    ],
+    "id": "prm22"
+  },
+  {
+    "description": "Paste Insert",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "V"
+      }
+    ],
+    "id": "prm23"
+  },
+  {
+    "description": "Paste Attributes",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Alt"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "V"
+      }
+    ],
+    "id": "prm24"
+  },
+  {
+    "description": "Clear",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Del"
+      }
+    ],
+    "id": "prm25"
+  },
+  {
+    "description": "Delete forever",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Del"
+      }
+    ],
+    "id": "prm26"
+  },
+  {
+    "description": "Duplicate",
+    "category": "General Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": ""
+      },
+      {
+        "type": "operator",
+        "val": "or"
+      },
+      {
+        "type": "symbol",
+        "val": ""
+      }
+    ],
+    "id": "prm27"
+  },
+  {
+    "description": "Link",
+    "category": "Clipping Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "L"
+      }
+    ],
+    "id": "prm28"
+  },
+  {
+    "description": "Group",
+    "category": "Clipping Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "G"
+      }
+    ],
+    "id": "prm29"
+  },
+  {
+    "description": "Ungroup",
+    "category": "Clipping Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "G"
+      }
+    ],
+    "id": "prm30"
+  },
+  {
+    "description": "Speed",
+    "category": "Clipping Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "R"
+      }
+    ],
+    "id": "prm31"
+  },
+  {
+    "description": "Capture",
+    "category": "Clipping Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "F5"
+      }
+    ],
+    "id": "prm32"
+  },
+  {
+    "description": "Insert",
+    "category": "Clipping Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": ","
+      }
+    ],
+    "id": "prm33"
+  },
+  {
+    "description": "Overwrite",
+    "category": "Clipping Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "."
+      }
+    ],
+    "id": "prm34"
+  },
+  {
+    "description": "Add edit",
+    "category": "Clipping Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "K"
+      }
+    ],
+    "id": "prm35"
+  },
+  {
+    "description": "Add edit to track",
+    "category": "Clipping Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "K"
+      }
+    ],
+    "id": "prm36"
+  },
+  {
+    "description": "Video transition",
+    "category": "Clipping Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "D"
+      }
+    ],
+    "id": "prm37"
+  },
+  {
+    "description": "Audio transition",
+    "category": "Clipping Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "D"
+      }
+    ],
+    "id": "prm38"
+  },
+  {
+    "description": "Reverse match frame",
+    "category": "Clipping Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "R"
+      }
+    ],
+    "id": "prm39"
+  },
+  {
+    "description": "Zoom in/Zoom out",
+    "category": "Clipping Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "="
+      },
+      {
+        "type": "operator",
+        "val": "or"
+      },
+      {
+        "type": "symbol",
+        "val": "-"
+      }
+    ],
+    "id": "prm40"
+  },
+  {
+    "description": "Snap",
+    "category": "Clipping Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "S"
+      }
+    ],
+    "id": "prm41"
+  },
+  {
+    "description": "Go to selected clip start",
+    "category": "Clipping Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Home"
+      }
+    ],
+    "id": "prm42"
+  },
+  {
+    "description": "Go to selected clip end",
+    "category": "Clipping Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "End"
+      }
+    ],
+    "id": "prm43"
+  },
+  {
+    "description": "Go to sequence clip start",
+    "category": "Clipping Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Home"
+      }
+    ],
+    "id": "prm44"
+  },
+  {
+    "description": "Go to sequence clip end",
+    "category": "Clipping Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "End"
+      }
+    ],
+    "id": "prm45"
+  },
+  {
+    "description": "Increse volume",
+    "category": "Clipping Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "]"
+      }
+    ],
+    "id": "prm46"
+  },
+  {
+    "description": "Minimize all tracks",
+    "category": "Clipping Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "-"
+      }
+    ],
+    "id": "prm47"
+  },
+  {
+    "description": "Mark in/Mark out",
+    "category": "Marker Operation",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "I"
+      },
+      {
+        "type": "operator",
+        "val": "or"
+      },
+      {
+        "type": "symbol",
+        "val": "O"
+      }
+    ],
+    "id": "prm48"
+  },
+  {
+    "description": "Mark clip",
+    "category": "Marker Operation",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "X"
+      }
+    ],
+    "id": "prm49"
+  },
+  {
+    "description": "Mark selection",
+    "category": "Marker Operation",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": ""
+      },
+      {
+        "type": "operator",
+        "val": "or"
+      },
+      {
+        "type": "symbol",
+        "val": ""
+      }
+    ],
+    "id": "prm50"
+  },
+  {
+    "description": "Go to in",
+    "category": "Marker Operation",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "I"
+      }
+    ],
+    "id": "prm51"
+  },
+  {
+    "description": "Go to out",
+    "category": "Marker Operation",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "O"
+      }
+    ],
+    "id": "prm52"
+  },
+  {
+    "description": "Clear in/Clear out",
+    "category": "Marker Operation",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "I"
+      },
+      {
+        "type": "operator",
+        "val": "or"
+      },
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "O"
+      }
+    ],
+    "id": "prm53"
+  },
+  {
+    "description": "Clear in  and out",
+    "category": "Marker Operation",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "X"
+      }
+    ],
+    "id": "prm54"
+  },
+  {
+    "description": "Add marker",
+    "category": "Marker Operation",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "M"
+      }
+    ],
+    "id": "prm55"
+  },
+  {
+    "description": "Previous marker",
+    "category": "Marker Operation",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "M"
+      }
+    ],
+    "id": "prm56"
+  },
+  {
+    "description": "Next marker",
+    "category": "Marker Operation",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "M"
+      }
+    ],
+    "id": "prm57"
+  },
+  {
+    "description": "Clear current marker",
+    "category": "Marker Operation",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Alt"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "M"
+      }
+    ],
+    "id": "prm58"
+  },
+  {
+    "description": "Left align",
+    "category": "Marker Operation",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "L"
+      }
+    ],
+    "id": "prm59"
+  },
+  {
+    "description": "Center align",
+    "category": "Marker Operation",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "C"
+      }
+    ],
+    "id": "prm60"
+  },
+  {
+    "description": "Right align",
+    "category": "Marker Operation",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "R"
+      }
+    ],
+    "id": "prm61"
+  },
+  {
+    "description": "Stopping tab",
+    "category": "Marker Operation",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "T"
+      }
+    ],
+    "id": "prm62"
+  },
+  {
+    "description": "Templates",
+    "category": "Marker Operation",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "J"
+      }
+    ],
+    "id": "prm63"
+  },
+  {
+    "description": "Project",
+    "category": "Window Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "1"
+      }
+    ],
+    "id": "prm64"
+  },
+  {
+    "description": "Source monitor",
+    "category": "Window Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "2"
+      }
+    ],
+    "id": "prm65"
+  },
+  {
+    "description": "Timeline",
+    "category": "Window Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "3"
+      }
+    ],
+    "id": "prm66"
+  },
+  {
+    "description": "Program monitor",
+    "category": "Window Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "4"
+      }
+    ],
+    "id": "prm67"
+  },
+  {
+    "description": "Effect control",
+    "category": "Window Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "5"
+      }
+    ],
+    "id": "prm68"
+  },
+  {
+    "description": "Audio track mixer",
+    "category": "Window Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "6"
+      }
+    ],
+    "id": "prm69"
+  },
+  {
+    "description": "Effects",
+    "category": "Window Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "7"
+      }
+    ],
+    "id": "prm70"
+  },
+  {
+    "description": "Media browser",
+    "category": "Window Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "8"
+      }
+    ],
+    "id": "prm71"
+  },
+  {
+    "description": "Audio clip mixer",
+    "category": "Window Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "9"
+      }
+    ],
+    "id": "prm72"
+  },
+  {
+    "description": "Cut to camera",
+    "category": "Window Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "1..9"
+      }
+    ],
+    "id": "prm73"
+  },
+  {
+    "description": "Clear poster frame",
+    "category": "Window Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "P"
+      }
+    ],
+    "id": "prm74"
+  },
+  {
+    "description": "Export frame",
+    "category": "Window Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Ctrl"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "Shift"
+      },
+      {
+        "type": "operator",
+        "val": "+"
+      },
+      {
+        "type": "symbol",
+        "val": "E"
+      }
+    ],
+    "id": "prm75"
+  },
+  {
+    "description": "Select Camera",
+    "category": "Window Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "1..9"
+      }
+    ],
+    "id": "prm76"
+  },
+  {
+    "description": "Record video",
+    "category": "Panel Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "V"
+      }
+    ],
+    "id": "prm77"
+  },
+  {
+    "description": "Record Audio",
+    "category": "Panel Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "A"
+      }
+    ],
+    "id": "prm78"
+  },
+  {
+    "description": "Eject",
+    "category": "Panel Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "E"
+      }
+    ],
+    "id": "prm79"
+  },
+  {
+    "description": "Fast forward",
+    "category": "Panel Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "F"
+      }
+    ],
+    "id": "prm80"
+  },
+  {
+    "description": "Go to in point",
+    "category": "Panel Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Q"
+      }
+    ],
+    "id": "prm81"
+  },
+  {
+    "description": "Go to out point",
+    "category": "Panel Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "W"
+      }
+    ],
+    "id": "prm82"
+  },
+  {
+    "description": "Rewind",
+    "category": "Panel Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "R"
+      }
+    ],
+    "id": "prm83"
+  },
+  {
+    "description": "Record",
+    "category": "Panel Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "G"
+      }
+    ],
+    "id": "prm84"
+  },
+  {
+    "description": "Stop",
+    "category": "Panel Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "S"
+      }
+    ],
+    "id": "prm85"
+  },
+  {
+    "description": "Step back",
+    "category": "Panel Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Left Arrow"
+      }
+    ],
+    "id": "prm86"
+  },
+  {
+    "description": "Step forward",
+    "category": "Panel Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Right arrow"
+      }
+    ],
+    "id": "prm87"
+  },
+  {
+    "description": "Remove effects/delete item",
+    "category": "Panel Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Bkspace"
+      }
+    ],
+    "id": "prm88"
+  },
+  {
+    "description": "Play",
+    "category": "Panel Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Spacebar"
+      }
+    ],
+    "id": "prm89"
+  },
+  {
+    "description": "Record on/off",
+    "category": "Panel Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "0"
+      }
+    ],
+    "id": "prm90"
+  },
+  {
+    "description": "Next/Previous",
+    "category": "Panel Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Down arrow"
+      },
+      {
+        "type": "operator",
+        "val": "or"
+      },
+      {
+        "type": "symbol",
+        "val": "Up arrow"
+      }
+    ],
+    "id": "prm91"
+  },
+  {
+    "description": "Track select tool",
+    "category": "Tools Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "A"
+      }
+    ],
+    "id": "prm92"
+  },
+  {
+    "description": "Ripple edit tool",
+    "category": "Tools Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "B"
+      }
+    ],
+    "id": "prm93"
+  },
+  {
+    "description": "Razor tool",
+    "category": "Tools Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "C"
+      }
+    ],
+    "id": "prm94"
+  },
+  {
+    "description": "Hand tool",
+    "category": "Tools Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "H"
+      }
+    ],
+    "id": "prm95"
+  },
+  {
+    "description": "Rolling edit tool",
+    "category": "Tools Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "N"
+      }
+    ],
+    "id": "prm96"
+  },
+  {
+    "description": "Pen tool",
+    "category": "Tools Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "P"
+      }
+    ],
+    "id": "prm97"
+  },
+  {
+    "description": "Slide tool",
+    "category": "Tools Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "U"
+      }
+    ],
+    "id": "prm98"
+  },
+  {
+    "description": "Selection tool",
+    "category": "Tools Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "V"
+      }
+    ],
+    "id": "prm99"
+  },
+  {
+    "description": "Slip tool",
+    "category": "Tools Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Y"
+      }
+    ],
+    "id": "prm100"
+  },
+  {
+    "description": "Zoom tool",
+    "category": "Tools Shortcuts",
+    "shortcut": [
+      {
+        "type": "symbol",
+        "val": "Z"
+      }
+    ],
+    "id": "prm101"
+  }
+]
