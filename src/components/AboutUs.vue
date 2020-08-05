@@ -17,7 +17,7 @@
         <a href="https://marcelchristianis.com" target="_blank">Marcel Christianis</a>, 23 years old, from Indonesia. I believe in the intersection of
         code, design, and business. Follow me on
         <a
-          href="https://twitter.com/marcelc63"
+          href="https://twitter.com/rvine_naidu"
           target="_blank"
         >twitter</a>
         :)

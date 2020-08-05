@@ -137,8 +137,8 @@ p {
       <div class="mb-20 d-flex flex-column">
         <span class="menu__headline">About</span>
         <span class="menu__options">
-          <a href="https://twitter.com/marcelc63">
-            <i class="fa fa-twitter icon" aria-hidden="true"></i> marcelc63
+          <a href="https://twitter.com/rvine_naidu">
+            <i class="fa fa-twitter icon" aria-hidden="true"></i> rvine_naidu
           </a>
         </span>
       </div>

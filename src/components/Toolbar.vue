@@ -7,9 +7,9 @@
       </span>
     </div>
     <span class="toolbar__option">
-      <a href="https://twitter.com/marcelc63" target="_blank">
+      <a href="https://twitter.com/rvine_naidu" target="_blank">
         by
-        <i class="fa fa-twitter" aria-hidden="true"></i>marcelc63
+        <i class="fa fa-twitter" aria-hidden="true"></i>rvine_naidu
       </a>
     </span>
   </div>
