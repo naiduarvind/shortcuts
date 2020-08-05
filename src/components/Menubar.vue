@@ -92,7 +92,7 @@ p {
     <div class="d-flex flex-column">
       <h1 class="menu__title d-flex flex-row align-items-center">
         <i class="em em-keyboard"></i>
-        <span class="pl-10">Shortcuts</span>
+        <span class="pl-10">T.(*)b.E Shortcuts</span>
       </h1>
 
       <div class="mb-20 d-flex flex-column">
