@@ -63,7 +63,6 @@
 // @ is an alias to /src
 
 // Shortcuts
-import excel from "@/shortcuts/excel.json";
 import vim from "@/shortcuts/vim.json";
 
 // Dependencies
