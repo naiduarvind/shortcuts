@@ -63,7 +63,7 @@
 // @ is an alias to /src
 
 // Shortcuts
-import vim from "@/shortcuts/vim.json";
+import excel from "@/shortcuts/google-mail-mac.json";
 
 // Dependencies
 import axios from "axios";

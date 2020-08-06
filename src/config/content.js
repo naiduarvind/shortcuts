@@ -6,7 +6,6 @@ import googleslides from "@/shortcuts/google-slides.json";
 import googlespreadsheets from "@/shortcuts/google-spreadsheets.json";
 import photoshopmac from "@/shortcuts/photoshop-mac.json";
 import premieremac from "@/shortcuts/premiere-mac.json";
-import vim from "@/shortcuts/vim.json";
 
 export const shortcuts = {
   googlechromemac,
@@ -16,8 +15,7 @@ export const shortcuts = {
   googleslides,
   googlespreadsheets,
   photoshopmac,
-  premieremac,
-  vim
+  premieremac
 };
 
 export const softwares = {
@@ -28,8 +26,7 @@ export const softwares = {
   googleslides: [],
   googlespreadsheets: [],
   photoshopmac: [],
-  premieremac: [],
-  vim: []
+  premieremac: []
 };
 
 export const category = ["Productivity", "Collaboration", "Design", "Utility"];
@@ -90,13 +87,6 @@ const list = [
     file: "premiere-mac",
     var: "premieremac",
     category: "Design"
-  },
-  {
-    name: "Vim",
-    platform: "all",
-    file: "vim",
-    var: "vim",
-    category: "Utility"
   }
 ];
 
