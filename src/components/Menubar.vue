@@ -126,8 +126,8 @@ p {
 
       <div class="mb-20 d-flex flex-column">
         <span class="menu__headline">Platform</span>
-        <span :class="classPlatform('windows')" @click="viewPlatform('windows')">
-          <i class="fa fa-windows icon" aria-hidden="true"></i> Windows
+        <span :class="classPlatform('ipad')" @click="viewPlatform('ipad')">
+          <i class="fa fa-apple icon" aria-hidden="true"></i> iPadOS
         </span>
         <span :class="classPlatform('mac')" @click="viewPlatform('mac')">
           <i class="fa fa-apple icon" aria-hidden="true"></i> macOS
