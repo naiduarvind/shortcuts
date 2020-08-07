@@ -40,7 +40,7 @@
         </div>
       </div>
       <div class="d-flex flex-column col-6">
-        <p>Shortcuts</p>
+        <p>The (*)bility Shortcuts</p>
         <textarea v-model="shortcutsstr" rows="8" cols="40"></textarea>
         <div v-for="(item,index) in shortcuts" :key="index">
           <p>Description: {{item.description}}</p>
